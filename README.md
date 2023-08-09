@@ -2,8 +2,15 @@
 
 [출처](https://apple.github.io/foundationdb/class-scheduling-go.html)
 
+## Prerequisite
 
-## Requirements
+Initial foundationdb setup
+
+```bash
+go get -u github.com/apple/foundationdb/bindings/go/src/fdb@release-6.2
+```
+
+## User Requirements
 - `availableClasses()`: returns list of classes
 - `signup(studentID, class)`: signs up a student for a class
 - `drop(studentID, class)`: drops a student from a class
